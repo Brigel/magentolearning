@@ -1,0 +1,1 @@
+/var/www/magento2/testing/vendor/magento/module-ui/view/frontend/web/js/view/messages.js

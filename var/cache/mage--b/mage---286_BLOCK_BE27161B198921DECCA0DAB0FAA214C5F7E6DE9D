@@ -1,0 +1,6 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1503411669;s:6:"expire";i:1503415269;s:4:"tags";s:120:"286_BLOCK_HTML,286_CATALOG_CATEGORY,286_CATALOG_CATEGORY_CATEGORY_NODE_0,286_CATALOG_CATEGORY_CATEGORY_NODE_101,286_MAGE";}
+
+<nav class="navigation" data-action="navigation">
+    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+        <li  class="level0 nav-1 first level-top"><a href="http://testing.magento2.local/catalogsearch/advanced/"  class="level-top" ><span>About</span></a></li><li  class="level0 nav-2 last level-top"><a href="http://testing.magento2.local/contact/"  class="level-top" ><span>Contact Us</span></a></li>            </ul>
+</nav>

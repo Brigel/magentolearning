@@ -1,0 +1,1 @@
+[2017-08-22 14:20:38] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://testing.magento2.local/admin/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"},"is_exception":false} []
