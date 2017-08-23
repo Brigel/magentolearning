@@ -1,0 +1,33 @@
+
+<table>
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Title</td>
+            <td>Creation time</td>
+        </tr>
+    </thead>
+    <tbody>
+<?php
+$allItems = $block->getAllItems();
+foreach ($allItems as $item) {
+?>
+    <tr>
+        <td>
+            <?php echo $item["id"]?>
+        </td>
+        <td>
+            <?php echo $item["title"]?>
+        </td>
+        <td>
+            <?php echo $item["creation_time"]?>
+        </td>
+    </tr>
+<?php
+}
+?>
+
+    </tbody>
+</table>
+<?php
+echo 'Count items: '.count($allItems);

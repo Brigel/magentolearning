@@ -1,0 +1,5 @@
+<config>
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="productNameLowPrice" type="Tasks\Plugin\Plugin\ProductPlugin" sortOrder="1" />
+    </type>
+</config>

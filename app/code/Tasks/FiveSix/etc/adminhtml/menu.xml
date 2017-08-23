@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+            <add
+                id="Tasks_FiveSix::front"
+                title="Task 5 end 6 on frontend"
+                module="Tasks_FiveSix"
+                sortOrder="2"
+                action="fivesix/tofivesix/"
+                resource="Tasks_FiveSix::front"
+                parent="Tasks_Menu::main"
+            />
+    </menu>
+</config>

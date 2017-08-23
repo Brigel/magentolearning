@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+            <add
+                id="Tasks_Four::front"
+                title="Task 4 on frontend"
+                module="Tasks_Four"
+                sortOrder="1"
+                action="taskfour/tofour/"
+                resource="Tasks_Four::front"
+                parent="Tasks_Menu::main"
+            />
+    </menu>
+</config>

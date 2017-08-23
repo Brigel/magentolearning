@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+            <add
+                id="Tasks_Menu::post"
+                title="Task 8 grid with UI component"
+                module="Tasks_UiGrid"
+                sortOrder="4"
+                action="uigrid/item"
+                resource="Tasks_UiGrid::item"
+                parent="Tasks_Menu::main"
+            />
+    </menu>
+</config>

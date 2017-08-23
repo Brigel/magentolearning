@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add
+                id="Tasks_Menu::main"
+                title="Tasks"
+                module="Tasks_Menu"
+                sortOrder="10"
+                resource="Tasks_Menu::main"/>
+    </menu>
+</config>

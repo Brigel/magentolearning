@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <update handle="editor"/>
+    <body>
+        <referenceContainer name="content">
+            <block class="Tasks\UiGrid\Block\Adminhtml\Item\Edit" name="tasks_uigrid_item_edit"/>
+        </referenceContainer>
+        <referenceContainer name="left">
+            <block class="Tasks\UiGrid\Block\Adminhtml\Item\Edit\Tabs" name="tasks_uigrid_item_tabs">
+                <block class="Tasks\UiGrid\Block\Adminhtml\Item\Edit\Tab\Item" name="tasks_uigrid_item_edit_tab_item"/>
+                <action method="addTab">
+                    <argument name="name" xsi:type="string">item</argument>
+                    <argument name="block" xsi:type="string">tasks_uigrid_item_edit_tab_item</argument>
+                </action>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

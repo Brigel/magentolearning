@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="home_widget" class="Tasks\Home\Block\Widget\HomeWidget">
+        <label translate="true">Super home Widget</label>
+        <description>Home widget for task 15</description>
+        <parameters>
+            <parameter name="testparam" xsi:type="text" required="true" visible="true" sort_order="10">
+                <label translate="true">Test param name</label>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>

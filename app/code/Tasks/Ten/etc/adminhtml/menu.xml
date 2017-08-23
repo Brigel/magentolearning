@@ -1,0 +1,13 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add
+                id="Tasks_Ten::ten"
+                title="Task 10 Logs"
+                module="Tasks_Ten"
+                sortOrder="5"
+                action="ten/index"
+                resource="Tasks_Ten::ten"
+                parent="Tasks_Menu::main"
+        />
+    </menu>
+</config>
